@@ -1,0 +1,3 @@
+/workspace/Render3Db/build/CMakeFiles/rebuild_cache.dir
+/workspace/Render3Db/build/CMakeFiles/Render3Db.dir
+/workspace/Render3Db/build/CMakeFiles/edit_cache.dir

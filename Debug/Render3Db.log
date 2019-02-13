@@ -1,0 +1,5 @@
+﻿  model.cpp
+c:\users\megazord\source\repos\moteurrendu3d\tgaimage.h(58): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+c:\users\megazord\source\repos\moteurrendu3d\model.cpp(112): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: symbole externe non résolu _WinMain@16 référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\MEGAZORD\source\repos\MoteurRendu3d\Debug\Render3Db.exe : fatal error LNK1120: 1 externes non résolus
