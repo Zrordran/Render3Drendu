@@ -41,6 +41,8 @@ model::model(std::string filename){
              }
          }
          load_texture(filename,imgText);
+     }else{
+         std::cout << "fail load" << std::endl;
      }
 }
 
