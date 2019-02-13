@@ -20,7 +20,7 @@ const TGAColor green   = TGAColor(0, 255,   0,   255);
 const int WIDTH = 800;
 const int HEIGHT = 800;
 const int DEPTH = 255;
-int width_TEXTURE, height_TEXTURE,width_TEXTUREY,height_TEXTUREY;
+int width_TEXTURE, height_TEXTURE;
 const float light[3] = {0.,0.,1.};
 const Vector camera(0.f,0.f,3.f);
 
@@ -231,12 +231,8 @@ void drawTriangle(model m, TGAImage &image, TGAColor color, float zbuffer[]){
 
 int main(int argc, char** argv) {
     model m("../african_head.obj");
-    model mY("../african_head_eye_inner.obj");
     width_TEXTURE = m.imgText.get_width();
     height_TEXTURE = m.imgText.get_height();
-
-    width_TEXTUREY = mY.imgText.get_width();
-    height_TEXTUREY = mY.imgText.get_height();
 
     //Zbuffer
     float *zbuffer = new float[WIDTH*HEIGHT];
@@ -245,6 +241,11 @@ int main(int argc, char** argv) {
     }
 
     TGAImage image(HEIGHT,WIDTH, TGAImage::RGB);
+    drawTriangle(m,image, white, zbuffer);
+
+    m = model("../african_head_eye_inner.obj");
+    width_TEXTURE = m.imgText.get_width();
+    height_TEXTURE = m.imgText.get_height();
     drawTriangle(m,image, white, zbuffer);
 
     image.flip_vertically(); // i want to have the origin at the left bottom corner of the image

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/workspace/Render3Drendu/Matrix.cpp
-iostream
--
-Matrix.h
-/workspace/Render3Drendu/Matrix.h
-
 /workspace/Render3Drendu/Matrix.h
 vector
 -
@@ -20,17 +14,7 @@ Vector.h
 Point.h
 /workspace/Render3Drendu/Point.h
 
-/workspace/Render3Drendu/Point.cpp
-Point.h
 /workspace/Render3Drendu/Point.h
-
-/workspace/Render3Drendu/Point.h
-Matrix.h
-/workspace/Render3Drendu/Matrix.h
-
-/workspace/Render3Drendu/Vector.cpp
-Vector.h
-/workspace/Render3Drendu/Vector.h
 Matrix.h
 /workspace/Render3Drendu/Matrix.h
 
@@ -66,22 +50,6 @@ sstream
 chrono
 -
 
-/workspace/Render3Drendu/model.cpp
-model.h
-/workspace/Render3Drendu/model.h
-tgaimage.h
-/workspace/Render3Drendu/tgaimage.h
-vector
--
-fstream
--
-sstream
--
-iterator
--
-iostream
--
-
 /workspace/Render3Drendu/model.h
 vector
 -
@@ -91,20 +59,6 @@ Point.h
 /workspace/Render3Drendu/Point.h
 Vector.h
 /workspace/Render3Drendu/Vector.h
-tgaimage.h
-/workspace/Render3Drendu/tgaimage.h
-
-/workspace/Render3Drendu/tgaimage.cpp
-iostream
--
-fstream
--
-string.h
--
-time.h
--
-math.h
--
 tgaimage.h
 /workspace/Render3Drendu/tgaimage.h
 
