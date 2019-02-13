@@ -1,4 +1,4 @@
-# Install script for directory: /workspace/Render3Db
+# Install script for directory: /workspace/Render3Drendu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspace/Render3Db/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspace/Render3Drendu/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

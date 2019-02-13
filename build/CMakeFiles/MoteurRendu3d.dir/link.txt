@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/MoteurRendu3d.dir/main.cpp.o CMakeFiles/MoteurRendu3d.dir/tgaimage.cpp.o CMakeFiles/MoteurRendu3d.dir/model.cpp.o CMakeFiles/MoteurRendu3d.dir/Point.cpp.o CMakeFiles/MoteurRendu3d.dir/Vector.cpp.o CMakeFiles/MoteurRendu3d.dir/Matrix.cpp.o  -o MoteurRendu3d 

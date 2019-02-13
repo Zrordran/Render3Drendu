@@ -6,6 +6,6 @@ tasks:
     cd build &&
     cmake .. &&
     make &&
-    ./Render3Db &&
+    ./Render3Drendu &&
     cd ..
     cd ..
