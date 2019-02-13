@@ -230,7 +230,7 @@ void drawTriangle(model m, TGAImage &image, TGAColor color, float zbuffer[]){
 
 
 int main(int argc, char** argv) {
-    model m("../african_head_eye_inner.obj");
+    model m("../african_head.obj");
     width_TEXTURE = m.imgText.get_width();
     height_TEXTURE = m.imgText.get_height();
 
@@ -243,10 +243,10 @@ int main(int argc, char** argv) {
     TGAImage image(HEIGHT,WIDTH, TGAImage::RGB);
     drawTriangle(m,image, white, zbuffer);
 
-    m = model("../african_head.obj");
-    width_TEXTURE = m.imgText.get_width();
-    height_TEXTURE = m.imgText.get_height();
-    drawTriangle(m,image, white, zbuffer);
+    model m2("../african_head_eye_inner.obj");
+    width_TEXTURE = m2.imgText.get_width();
+    height_TEXTURE = m2.imgText.get_height();
+    drawTriangle(m2,image, white, zbuffer);
 
     image.flip_vertically(); // i want to have the origin at the left bottom corner of the image
     image.write_tga_file("../output.tga");
