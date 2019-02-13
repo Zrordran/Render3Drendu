@@ -230,7 +230,7 @@ void drawTriangle(model m, TGAImage &image, TGAColor color, float zbuffer[]){
 
 
 int main(int argc, char** argv) {
-    model m("../african_head.obj");
+    model m("../african_head_eye_inner.obj");
     width_TEXTURE = m.imgText.get_width();
     height_TEXTURE = m.imgText.get_height();
 
@@ -243,7 +243,7 @@ int main(int argc, char** argv) {
     TGAImage image(HEIGHT,WIDTH, TGAImage::RGB);
     drawTriangle(m,image, white, zbuffer);
 
-    m = model("../african_head_eye_inner.obj");
+    m = model("../african_head.obj");
     width_TEXTURE = m.imgText.get_width();
     height_TEXTURE = m.imgText.get_height();
     drawTriangle(m,image, white, zbuffer);
